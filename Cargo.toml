@@ -1,0 +1,17 @@
+[package]
+name = "env_helpers"
+version = "0.1.0"
+edition = "2024"
+authors = ["Emil Suleymanov <emil@esnx.xyz>"]
+description = "A library for working with env variables"
+repository = "https://github.com/sssemil/env_helpers"
+readme = "README.md"
+license = "MIT"
+rust-version = "1.89.0"
+
+[dependencies]
+
+
+[[example]]
+name = "basic"
+path = "examples/basic.rs"
